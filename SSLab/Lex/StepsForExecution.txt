@@ -1,0 +1,5 @@
+Steps for executing lex programs:
+gedit lexprog1.l
+lex lexprog1.l
+cc lex.yy.c -ll
+./a.out

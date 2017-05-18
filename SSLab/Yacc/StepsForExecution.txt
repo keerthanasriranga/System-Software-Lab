@@ -1,0 +1,5 @@
+Steps for Execution of yacc programms :
+yacc p1.y
+lex p1.l
+gcc lex.yy.c
+./a.out
